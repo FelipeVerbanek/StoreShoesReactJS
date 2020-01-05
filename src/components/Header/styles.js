@@ -20,16 +20,16 @@ export const Cart = styled(Link)`
     div{
         text-align: right;
         margin-right: 10px;
-
+        span {
+            color: #eee;
+            font-size: 12px;
+        }
         strong {
             display: block;
             color:#fff;
         }
 
-        span: {
-            font-size: 12px;
-            color:#999;
-        }
+
     }
 
 `;
